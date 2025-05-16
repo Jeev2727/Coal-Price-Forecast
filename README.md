@@ -24,5 +24,5 @@ To support energy market forecasting and planning by providing a tool that predi
 - `requirements.txt` – Python dependencies
 
 # To Run Locally
-git clone https://github.com/your-username/coal-price-prediction.git
+git clone https://github.com/jeev2727/coal-price-prediction.git
 cd coal-price-prediction
