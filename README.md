@@ -7,7 +7,7 @@ To support energy market forecasting and planning by providing a tool that predi
 # Features
 - Input: Historical coal prices + external energy indicators
 - Output: Forecasted coal prices for future dates
-- Models: Random Forest MultiOuput Regressor
+- Models: Random Forest Regressor and MultiOuput Regressor
 - Visualizations: Line plots of actual vs predicted prices
 - Interactive UI built with Streamlit
 
@@ -15,11 +15,11 @@ To support energy market forecasting and planning by providing a tool that predi
 - Python
 - Pandas, Scikit-learn, Numpy
 - Streamlit
-- Matplotlib / Plotly
+- Matplotlib
 
 # Repository Contents
-- `app.py` – Streamlit frontend script
-- `model.pkl` – Trained machine learning model
-- `coal_price_data.csv` – Input data
+- `streamlit_deployment.py` – Streamlit frontend script
+- `coal_price_prediction.py` – Machine learning model
+- `gas_price_data` – Input data
 - `requirements.txt` – Python dependencies
 
